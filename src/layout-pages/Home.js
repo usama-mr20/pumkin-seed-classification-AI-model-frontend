@@ -29,25 +29,6 @@ export default function Home() {
   const [Aspect_Ration, setAspect_Ration] = React.useState("");
   const [Compactness, setCompactness] = React.useState("");
 
-  // const predictHandler = (e) => {
-  //   e.preventDefault();
-
-  //   const seedData = {
-  //     Area,
-  //     Perimeter,
-  //     Major_Axis_Length,
-  //     Minor_Axis_Length,
-  //     Convex_Area,
-  //     Equiv_Diameter,
-  //     Eccentricity,
-  //     Solidity,
-  //     Extent,
-  //     Roundness,
-  //     Aspect_Ration,
-  //     Compactness,
-  //   };
-  // };
-
   const dummyData = [
     [
       98745, 1290.09, 541.0447, 232.9598, 99459, 354.5787, 0.9026, 0.9928,
@@ -134,9 +115,6 @@ export default function Home() {
             <Box
               sx={{
                 marginTop: 8,
-                // display: "flex",
-                // flexDirection: "row",
-                // alignItems: "center",
               }}
             >
               <Box
